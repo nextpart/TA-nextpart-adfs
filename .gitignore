@@ -1,0 +1,21 @@
+# Compiled python files
+*.py[co]
+
+# VS Code
+.vscode
+
+# OSX noise
+.DS_Store
+
+# Local stuff
+local/
+local.meta
+metadata
+*.aob_meta
+
+# Git repositories folder
+git-repositories/
+
+# Packages
+*.tgz
+*.spl
