@@ -10,7 +10,6 @@
 # Local stuff
 local/
 local.meta
-metadata
 *.aob_meta
 *.orig.*
 
