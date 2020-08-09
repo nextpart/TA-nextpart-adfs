@@ -12,6 +12,7 @@ local/
 local.meta
 metadata
 *.aob_meta
+*.orig.*
 
 # Git repositories folder
 git-repositories/
