@@ -2,7 +2,7 @@
 # Organisation: Nextpart Security Intelligence GmbH
 name: $(Date:yyyyMMdd)$(Rev:.r)
 
-pool: Default
+pool: Native
 
 variables:
 - group: docker # Variables in Pipelines/Library
@@ -13,7 +13,7 @@ variables:
 - name: feed # Used for uploading artifacts to azure
   value: 'bdf79b24-157f-463f-960f-825f04ff0f9c/b992132d-b93a-4ad6-a5e2-cca3afd731a2'
 - name: appname-feed # Azure artifacts only accepts lower-case # TODO: find workaround
-  value: 'template'
+  value: 'ta-nextpart-adfs'
 - name: major # Package versioning stuff ...
   value: 0
 - name: minor
@@ -63,7 +63,6 @@ stages:
   jobs:
 
   - job: Packing
-    pool: Default
     container: # Using a dedicated service image to take over jobs
       image: $(azureContainerRegistry)/splunk/package:latest
       endpoint: nextpartdev

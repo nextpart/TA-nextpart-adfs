@@ -1,7 +1,7 @@
 
-# TEMPLATE Application/Add-on for Splunk
+# AD FS Add-on for Splunk
 
-[![Build Status](https://dev.azure.com/NEXTPART/Splunksters/_apis/build/status/TEMPLATE?branchName=master)](https://dev.azure.com/NEXTPART/Splunksters/_build/latest?definitionId=55&branchName=master) [![image](https://img.shields.io/badge/Maintained%20in-Azure%20DevOps-1f425f.svg?logo=Azure%20DevOps)](https://dev.azure.com/NEXTPART/Splunksters) [![image](https://img.shields.io/badge/Contact-NEXTPART-1abc9c.svg)](mailto:info@nextpart.io)
+[![Build Status](https://dev.azure.com/NEXTPART/Splunksters/_apis/build/status/TA-nextpart-adfs?branchName=master)](https://dev.azure.com/NEXTPART/Splunksters/_build/latest?definitionId=61&branchName=master) [![image](https://img.shields.io/badge/Maintained%20in-Azure%20DevOps-1f425f.svg?logo=Azure%20DevOps)](https://dev.azure.com/NEXTPART/Splunksters) [![image](https://img.shields.io/badge/Contact-NEXTPART-1abc9c.svg)](mailto:info@nextpart.io)
 
 ## Author information
 
@@ -18,7 +18,7 @@ Sourcetype: ``<SOURCETYPE>``
 Remove the app using splunk plugin tool
 
 ```
-$SPLUNK_HOME/bin/splunk remove app <TEMPLATE>
+$SPLUNK_HOME/bin/splunk remove app TA-nextpart-adfs
 ```
 
 ### Install the app
@@ -39,8 +39,8 @@ $SPLUNK_HOME/bin/splunk remove app <TEMPLATE>
 
 ## Copyright & License
 
-Copyright © 2019 Nextpart Security Intelligence GmbH
+Copyright © 2020 Nextpart Security Intelligence GmbH - All Rights Reserved
 
-This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
+Unauthorized copying, via any medium is strictly prohibited.
 
-Find more information about this on the [LICENSE](./LICENSE) file.
+Proprietary and confidential

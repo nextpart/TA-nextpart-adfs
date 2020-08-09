@@ -1,0 +1,8 @@
+reason,action
+MSIS6080,failure
+The user name or password is incorrect,error
+The user's account has expired,error
+MSIS3125,error
+ID4070,failure
+The user's password must be changed before signing in,error
+This user can't sign in because this account is currently disabled,error

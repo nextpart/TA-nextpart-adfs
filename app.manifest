@@ -1,10 +1,10 @@
 {
   "schemaVersion": "1.0.0",
   "info": {
-    "title": "TEMPLATE",
+    "title": "TA-nextpart-adfs",
     "id": {
       "group": null,
-      "name": "TEMPLATE",
+      "name": "TA-nextpart-adfs",
       "version": "0.0.0"
     },
     "author": [
