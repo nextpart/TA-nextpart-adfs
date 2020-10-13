@@ -1,0 +1,9 @@
+id,signature_name,signature
+1200,"Application Token Success","A request where a security token is issued successfully by the Federation Service"
+1201,"Application Token Failure","A request where security token issuance failed on the Federation Service"
+1202,"Fresh Credential Validation Success","A request where fresh credentials are validated successfully by the Federation Service"
+1203,"Fresh Credential Validation Error","A request where fresh credential validation failed on the Federation Service"
+1204,"Password Change Request Success","A transaction where the password change request was successfully processed by the Federation Service"
+1205,"Password Change Request Error","A transaction where the password change request failed to be processed by the Federation Service"
+1206,"Sign Out Success","Sign-out request successful"
+1207,"Sign Out Failure","Sign-out request failed"
